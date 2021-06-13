@@ -28,8 +28,9 @@ function App() {
       default:
         setFilteredTodos(todos);
         break;
-    }
-  }
+    };
+  };
+
   return (
     <div className="App">
       <header>
